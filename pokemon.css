@@ -65,3 +65,16 @@ table th{
     padding: 5px;
 }
 
+nav a:link{
+    color: RGB(123,145,222);
+    background-color: white;
+}
+
+nav a:visited{
+    color: RGB(123,145,222);
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    background-color: wheat;
+}
