@@ -6,16 +6,13 @@ body{
     color: white;
     font-size: large;
 }
-h1 {
-    font-size: medium;
-    font-style: normal;
-}
+
 .zöld{
-    color: rgb(8, 196, 8);
+    color: darkgreen;
 }
 .felsor{
-    color: yellow;
-    font-size: smaller;
+    color: black;
+    font-size: medium;
 }
 .lila{
     color: indigo;
@@ -65,16 +62,87 @@ table th{
     padding: 5px;
 }
 
+nav a {
+    display: inline;
+    margin: 0px 20px;
+    border: 1px solid wheat;
+    padding: 10px;
+    text-decoration: none; 
+}
+
 nav a:link{
-    color: RGB(123,145,222);
-    background-color: white;
+    color:wheat;
+    background-color: black
 }
 
 nav a:visited{
-    color: RGB(123,145,222);
+    color: wheat;
 }
 
-nav ul li:hover{
+nav a:hover{
     text-decoration: underline;
-    background-color: wheat;
+    background-color: darkred;
+    color: white;
+}
+
+nav a:active{
+    color: black;
+}
+
+.hivatalosoldal{
+    float: right;
+}
+
+.tojfel{
+    text-align:right;
+}
+.keret{
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 75%;
+    background-color: #f1f1f1; /*osztályba sorolt sortörés*/
+    box-shadow: 10px 10px 5px #cfb7a2;
+    float: right;
+}
+
+#erdekesseg{
+    width:200px;
+    float:right;
+    margin: 0px 0px 20px 15px;
+    background-color: #ffffcc;
+    -ms-transform: rotate(5deg);
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg)
+}
+
+.felsősor{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cim{
+    font-size: 50px;
+    font-style: bold;
+    margin: 50px;
+}
+
+.lenyege{
+    color: green;
+    margin: auto;
+    width: 40%;
+    border: 3px solid darkgreen;
+    padding: 10px;
+    float: left;
+}
+
+.pokcim{
+    font-size: medium;
+}
+
+.mechanika{
+    width: 50%;
 }
