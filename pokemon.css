@@ -10,53 +10,37 @@ body{
 .zöld{
     color: darkgreen;
 }
+
 .felsor{
     color: black;
     font-size: medium;
 }
+
 .lila{
     color: indigo;
 }
+
 .kék{
     color: blue;
 }
+
 .sárga{
     color: yellow;
 }
-nav ul{
-    margin:0;
-    padding: 0;
-}
-nav a:link {
-    color: RGB(123,145,222);
-    background-color: white;
-}
-nav a:visited{
-    color: RGB(123,145,222);
-}
-nav a:hover{
-    background-color: white;
-    text-decoration: underline;
-}
-nav a:active{
-    color: red;
-}
-nav ul li{
-    margin: 0 10px;
-    display: inline;
-    border: 1px solid white;
-    padding: 10px;
-}
+
 table {
     width: 70%;
     margin: 0 5%;
 }
+
 table tr:hover {
     color: red;
 }
+
 table,table td, table th {
     border-collapse: collapse ;
 }
+
 table th{
     color: grey;
     padding: 5px;
@@ -83,6 +67,7 @@ nav a:hover{
     text-decoration: underline;
     background-color: darkred;
     color: white;
+    transition-duration: 1s;
 }
 
 nav a:active{
@@ -96,13 +81,14 @@ nav a:active{
 .tojfel{
     text-align:right;
 }
+
 .keret{
     margin: 10px auto;
     text-align: center;
     padding: 10px;
     font-style: italic;
     font-size: 75%;
-    background-color: #f1f1f1; /*osztályba sorolt sortörés*/
+    background-color: #f1f1f1; 
     box-shadow: 10px 10px 5px #cfb7a2;
     float: right;
 }
@@ -145,4 +131,10 @@ nav a:active{
 
 .mechanika{
     width: 50%;
+}
+
+.kepek{
+    width: 300px;
+    height: 150px;
+    box-shadow: 10px 10px 5px black;
 }
