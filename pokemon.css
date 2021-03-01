@@ -65,7 +65,7 @@ nav a:visited{
 
 nav a:hover{
     text-decoration: underline;
-    background-color: darkred;
+    background-color: brown;
     color: white;
     transition-duration: 1s;
 }
@@ -137,4 +137,16 @@ nav a:active{
     width: 300px;
     height: 150px;
     box-shadow: 10px 10px 5px black;
+}
+
+#asd{
+    font-size: 15px;
+}
+
+#ezaz{
+    color: blueviolet;
+}
+
+#ezaz:hover{
+    background-color: darkred;
 }
